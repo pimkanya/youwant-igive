@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โรงเรียนวัดไผ่จรเข้ | นครปฐม</title>
+    <link href="https://fonts.googleapis.com/css2?family=Trirong&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="School.css">
+    <script src="SlidePic.js"></script>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KN3BZD5');</script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body>
+    <nav>
+        <a class="logo" href="Home.html"><img src="logo.png" alt="logo"></a>
+        <a class="formschool" href="FormSchool.html" id="schoolneed">+ โรงเรียนที่ต้องการความช่วยเหลือ</a>
+    </nav>
+    <div class="barschool">
+        <ul>
+            <li><a class="province" href="ChaiNat.html" id="chainat">ชัยนาท</a></li>
+            <li><a class="province" href="NakhonNayok.html" id="nakhonnayok">นครนายก</a></li>
+            <li><a class="province athere" href="NakhonPathom.html" id="nakhonpathom">นครปฐม</a></li>
+            <li><a class="province" href="PathumThani.html" id="pathumthani">ปทุมธานี</a></li>
+            <li><a class="province" href="PrachinBuri.html" id="prachinburi">ปราจีนบุรี</a></li>
+            <li><a class="province" href="Ayutthaya.html" id="ayutthaya">พระนครศรีอยุธยา</a></li>
+            <li><a class="province" href="PhitsanuLok.html" id="phitsanulok">พิษณุโลก</a></li>
+            <li><a class="province" href="PhetchaBun.html" id="phetchabun">เพชรบูรณ์</a></li>
+            <li><a class="province" href="SamutSongkhram.html" id="samutsongkhram">สมุทรสงคราม</a></li>
+            <li><a class="province" href="SaraBuri.html" id="saraburi">สระบุรี</a></li>
+            <li><a class="province" href="SukhoThai.html" id="sukhothai">สุโขทัย</a></li>
+            <li><a class="province" href="SuphanBuri.html" id="suphanburi">สุพรรณบุรี</a></li>
+            <li><a class="province" href="UthaiThani.html" id="uthaithani">อุทัยธานี</a></li>
+        </ul>
+
+    </div>
+    <div class="allschool">
+        <h2>โรงเรียนวัดไผ่จรเข้</h2>
+        <center>
+            <div class="photo" style="max-width:500px">
+
+                <img class="mySlides" src="WatPhaiChorakhe1.jpg">
+                <img class="mySlides" src="WatPhaiChorakhe2.jpg">
+                <img class="mySlides" src="WatPhaiChorakhe3.jpg">
+                <img class="mySlides" src="WatPhaiChorakhe4.jpg">
+                <img class="mySlides" src="WatPhaiChorakhe5.jpg">
+                <img class="mySlides" src="WatPhaiChorakhe6.jpg">
+
+            </div>
+        </center>
+
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) { myIndex = 1 }
+                x[myIndex - 1].style.display = "block";
+                setTimeout(carousel, 2000);
+            }
+        </script>
+
+
+        <div class="school">
+            <div class="infomation">
+                <div class="one">
+                    <p class="topic"> ระดับชั้น </p>
+                    <p class="info"> อนุบาลปีที่ 2 – ประถมศึกษาปีที่ 6</p>
+                </div>
+                <div class="two">
+                    <p class="topic"> ที่อยู่ </p>
+                    <p class="info"> หมู่ที่ 7 ต.ไทรงาม อ.บางเลน จ.นครปฐม รหัสไปรษณีย์ 73130</p>
+                </div>
+
+                <div class="three">
+                    <p class="topic"> ช่องทางการติดต่อ </p>
+                    <p class="info"> Tel : 09 8746 3712<br>
+                        <a class="infoun" href="https://www.facebook.com/profile.php?id=100003839724087"
+                            target="_blank">FACEBOOK :</a>
+                        <a class="info" href="https://www.facebook.com/profile.php?id=100003839724087" target="_blank">
+                            จุฑามาศ พลับสวาท</a>
+                    </p>
+                </div>
+
+
+                <div class="four">
+                    <p class="topic"> เว็บไซต์โรงเรียน </p>
+
+                    <a class="info" href="https://data.bopp-obec.info/web/home.php?School_ID=1073180205"
+                        target="_blank">
+                        <p class="info">
+
+                            โรงเรียนวัดไผ่จรเข้
+                            สำนักงานเขตพื้นที่การศึกษาประถมศึกษานครปฐม เขต 2
+
+                    </a></p>
+                </div>
+            </div>
+            <div class="iconcon">
+                <div class="icon">
+                    <img class="iconbook" src="bookja.png" alt="iconbook">
+                    <img class="iconshirt" src="shirtja.png" alt="iconshirt">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

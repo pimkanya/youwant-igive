@@ -8,13 +8,16 @@
     <title>YOUWANT IGIVE</title>
     <link href="https://fonts.googleapis.com/css2?family=Trirong&display=swap" rel="stylesheet">
     <style>
-        @media (min-width: 768px) {
+        @media (max-width: 768px) {
             body {
                 font-size: 13px;
             }
 
             nav {
                 font-size: medium;
+            }
+            div.connect {
+                margin-right: 30px;
             }
         }
 
@@ -26,6 +29,10 @@
             nav {
                 font-size: 14px;
             }
+            div.connect {
+                margin-right: 20px;
+            }
+
         }
 
         body {
@@ -86,9 +93,18 @@
             width: 50%;
 
         }
+        div.connect {
+            display:block;
+            position: fixed;
+text-align: right;       
+margin-left: 75px; }
+        div.connect a#goline img#line {
+    width: 15%;
+}
+
     </style>
     
-    <!-- Google Tag Manager -->
+    <!-- Google Tag Manager --> 
     <script>(function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
                 'gtm.start':
@@ -108,11 +124,16 @@
     <header>
         <h1>เว็บไซต์รวบรวมโรงเรียนที่ขาดแคลนอุปกรณ์ทางการศึกษาในภาคกลาง</h1>
     </header>
+    <div class="connect">
+        <a id="goline" href="https://lin.ee/sF0QRKm" ><img id="line" src="line.png" alt="line"></a>
+    </div>
     <div class="location">
         <center>
-            <a href="ChaiNat.html" id="gotoAllprovince"><img id="map" src="map.png" alt="map"></a>
+            <a href="ChaiNat.html"><img id="map" src="map.png" alt="map"></a>
         </center>
     </div>
+    
+
 </body>
 
 </html>
